@@ -17,4 +17,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag hello-world-api-server:$(date +%s)
     - name: Push to ghcr.io
-      run: docker push ghcr.io/SimplyCoders/hello-world-api-server:latest
+      run: docker push ghcr.io/simplycoders/hello-world-api-server:latest
