@@ -1,0 +1,31 @@
+{
+  "name": "hello-world-api-server",
+  "version": "0.0.1",
+  "description": "A simple node-express api server for testing.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplyCoders/hello-world-api-server.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "api-server",
+    "sample"
+  ],
+  "author": "ezborgy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simplyCoders/hello-world-api-server/issues"
+  },
+  "homepage": "https://github.com/simplyCoders/hello-world-api-server#readme",
+  "dependencies": {
+    "express": "^4.18.0"
+  },
+  "devDependencies": {
+  }
+}
