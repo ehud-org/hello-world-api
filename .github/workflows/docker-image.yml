@@ -20,5 +20,5 @@ jobs:
         with:
           registry: ghcr.io
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          repository: ${{ secrets.USER }}/hello-world-api
+          repository: symplycoders/hello-world-api
           tags: latest
