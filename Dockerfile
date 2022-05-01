@@ -1,4 +1,6 @@
-FROM node:16
+ARG BASE_IMAGE=amd64/node:16
+
+FROM $BASE_IMAGE
 
 # Create app directory
 WORKDIR /usr/src/app
