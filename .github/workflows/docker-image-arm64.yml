@@ -28,7 +28,7 @@ jobs:
         password: ${{ secrets.PAT }}
     - 
       name: Build the Docker image
-      run: docker build -build-arg BASE_IMAGE=amd64/node:16 . --file Dockerfile --tag ghcr.io/simplycoders/hello-world-api-server:latest
+      run: docker build --build-arg BASE_IMAGE=arm64/node:16 . --file Dockerfile --tag ghcr.io/simplycoders/hello-world-api-server:latest
     - 
       name: Push to ghcr.io
       run: docker push ghcr.io/simplycoders/hello-world-api-server:latest
