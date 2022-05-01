@@ -28,8 +28,8 @@ jobs:
         password: ${{ secrets.PAT }}
     - 
       name: Build the Docker image
-      run: docker build . --file Dockerfile --tag ghcr.io/simplycoders/hello-world-api-server:latest
+      run: docker build . --file Dockerfile --tag ghcr.io/simplycoders/hello-world-api:latest
     - 
       name: Push to ghcr.io
-      run: docker push ghcr.io/simplycoders/hello-world-api-server:latest
+      run: docker push ghcr.io/simplycoders/hello-world-api:latest
       
