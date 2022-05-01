@@ -21,4 +21,5 @@ The server also includes a Dockerfile and is packaged as a container.
 ~~~
 microk8s kubectl run helo-world-api --image=ghcr.io/simplycoders/helo-world-api                 # run a pod with image
 microk8s kubectl get pods                                                                       # list of all pods
+microk8s bubectl delete pod helo-world-api                                                      # delete the pod
 ~~~
