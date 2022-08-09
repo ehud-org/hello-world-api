@@ -1,3 +1,13 @@
+name: Run Trivy
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
 - name: Manifest Generation
   run: |
     curl -sLo install.sh download.codesec.aquasec.com/billy/install.sh
